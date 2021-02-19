@@ -1,0 +1,58 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx,amssymb, amstext, amsmath, epstopdf, booktabs, verbatim, gensymb, geometry, appendix, natbib, lmodern, hyperref, lastpage}
+\geometry{letterpaper}
+\usepackage{ebgaramond}
+
+\newcommand*\Title{Proposta di riprogettazione della\\Dashboard "Situazione Italia"\\del Dipartimento della Protezione Civile}
+\newcommand*\cpiType{CPI Template}
+\newcommand*\Date{June 2011}
+\newcommand*\Author{Michele Perlino}
+\title{Proposta di riprogettazione della\\Dashboard "Situazione Italia"\\del Dipartimento della Protezione Civile}
+\author{Andrew Hobbs}
+\date{\today}
+%-----------------------------------------------------------
+
+\usepackage{cpistuff/cpi} % This is what makes your document look like a cpi document.
+
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\linespread{1.15} %Set standard document linespacing
+
+\begin{executive}
+
+Il documento corrente descrive il risultato della riprogettazione della dashboard "COVID-19 Situazione Italia" del Dipartimento della Protezione Civile (\href{https://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html#/b0c68bce2cce478eaac82fe38d4138b1}{link}) effettuata nell'ambito del progetto didattico "Plain X" dell'insegnamento di Usability \& User Experience Design L.M. Informatica presso l'Università di Bologna: il sistema è stato ridisegnato in modo che sia specificatamente indirizzato ai giornalisti, al fine di semplificare la loro comprensione e analisi dei dati relativi all'andamento della pandemia Covid-19.
+In particolare, verranno illustrate le funzionalità ridisegnate e quelle aggiunte, sottolineando l'impatto che esse hanno sul miglioramento dell'esperienza dei giornalisti.
+
+\end{executive}
+
+{
+    \hypersetup{linkcolor=black}
+    \rmfamily{\tableofcontents}
+}
+\clearpage
+
+\section{Contesto di riferimento}
+Il 2020 passerà alla storia come uno dei periodi più complicati su numerosi fronti, da quello sanitario a quello sociale, da quello politico a quello economico: l'11 marzo 2020 l'Organizzazione Mondiale della Sanità (OMS) ha dichiarato che il focolaio internazionale di infezione da nuovo coronavirus SARS-CoV-2 può essere considerato una pandemia.
+Nel fronteggiare la pandemia in oggetto, sicuramente la medicina e la ricerca hanno e stanno svolgendo un ruolo essenziale e vitale, tuttavia anche i media e i vari canali informativi sono di estrema rilevanza nell'ottica di supportare la comprensione del fenomeno e la consapevolezzazione dei cittadini. In questo ambito, uno degli strumenti tecnologici di maggior autorevolezza, stando alle visite e ai riferimenti pubblicati ogni giorno, è la dashboard "COVID-19 Situazione Italia" elaborata dal Dipartimento della Protezione Civile. Quest'ultima sta svolgendo un ruolo di informazione pubblica di assoluta rilevanza, tuttavia abbiamo individuato alcune criticità che, qualora risolte, concorrerebbero a migliorarne l'esperienza utente e l'usabilità, nonché la capacità informativa.
+Al fine di dar sostanza a queste nostre osservazioni, ci siamo permessi di riprogettare l'interfaccia attuale: nel report corrente, descriviamo le riflessioni compiute e le fasi intraprese per concretizzare la nostra proposta. In particolare, abbiamo focalizzato la riprogettazione su un segmento di utenza specifico, che riveste un ruolo di primaria importanza nella valorizzazione del diritto all'informazione dei cittadini: trattasi dei giornalisti impegnati nella redazione di articoli volti a comunicare i dati delle metriche epidemiologiche.
+Crediamo che una dashboard orientata a loro debba presentare visualizzazioni dall'alto impatto informativo, nei termini di una contestualizzazione puntuale e completa delle variabili coinvolte entro il periodo temporale e circostanza spaziale in cui si manifestano: reputiamo essere questa la direzione privilegiata e più spedita verso una comprensione profonda del quadro epidemiologico, cui possa aver seguito una comunicazione ai cittadini tanto completa quanto fruibile.
+
+\section{Considerazioni sulla dashboard del DPC}
+
+\subsection{Criticità nell'esperienza utente}
+\subsection{Criticità nella capacità informativa}
+
+\section{Riprogettazione proposta}
+
+\section{Conclusioni}
+
+
+\bibliography{codes_impact}
+\bibliographystyle{plainnat}
+
+\end{document}
