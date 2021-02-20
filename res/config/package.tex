@@ -1,2 +1,34 @@
-\documentclass[../../main.tex]{subfiles}
+\documentclass[11pt]{article}
 
+\usepackage{color} %include colors
+\usepackage[T1]{fontenc} %include font support
+\usepackage{lmodern} %make fonts look better
+\usepackage{helvet} %include helvetica
+%\usepackage{xcolor,mdframed,caption} %for the box
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{booktabs}
+\usepackage{verbatim}
+\usepackage{gensymb}
+\usepackage{geometry}
+\usepackage{appendix}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{subfiles}
+
+\usepackage{garamondx}
+% Per far funzionare questo pacchetto seguire questi passaggi:
+% 1) Aprire terminale (amministratore)
+% 2) curl --remote-name https://www.tug.org/fonts/getnonfreefonts/install-getnonfreefonts
+% 3) texlua install-getnonfreefonts --sys   
+% 3) getnonfreefonts --sys -l 
+    % a) se anche un solo font dà (Not installed) procedere con 4)
+% 4) getnonfreefonts --sys -a
+% 5) Enjoy!    
+
+\usepackage{res/config/cpi}
