@@ -1,0 +1,56 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx,amssymb, amstext, amsmath, epstopdf, booktabs, verbatim, gensymb, geometry, appendix, natbib, lmodern, hyperref, lastpage, subfiles}
+\geometry{letterpaper}
+\usepackage{ebgaramond}
+
+\newcommand*\Title{Proposta di riprogettazione della\\Dashboard "Situazione Italia"\\del Dipartimento della Protezione Civile}
+\newcommand*\cpiType{CPI Template}
+\newcommand*\Date{June 2011}
+\newcommand*\Author{Michele Perlino}
+\title{Proposta di riprogettazione della\\Dashboard "Situazione Italia"\\del Dipartimento della Protezione Civile}
+\author{Andrew Hobbs}
+\date{\today}
+%-----------------------------------------------------------
+
+\usepackage{res/config/cpi} % This is what makes your document look like a cpi document.
+
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\linespread{1.15} %Set standard document linespacing
+
+% Abstract
+\subfile{res/section/0-abstract}
+
+{
+    \hypersetup{linkcolor=black}
+    \rmfamily{\tableofcontents}
+}
+\clearpage
+
+
+% Sezione 1: Contesto di riferimento
+\subfile{res/section/1-contesto-riferimento.tex}
+
+
+% Sezione 2: Considerazioni sulla dashboard del DPC
+\subfile{res/section/2-considerazioni-dashboard-DPC.tex}
+
+
+% Sezione 3: Riprogettazione proposta
+\subfile{res/section/3-riprogettazione-proposta.tex}
+
+
+% Sezione 4: Conclusioni
+\subfile{res/section/4-conclusioni.tex}
+
+
+
+% \bibliography{codes_impact}
+% \bibliographystyle{plainnat}
+
+\end{document}
